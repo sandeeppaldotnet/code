@@ -1,7 +1,32 @@
-
+https://gridstackjs.com/#demo
+https://fancyapps.com/
+https://codepen.io/nisecuales/pen/obLawo
 https://www.indiantempletour.com/blogs/
 https://www.tourmyindia.com/
 background-image: linear-gradient(315deg, #B10819 50%, #F9D10B 0); graident color 
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+    /* font-size: 190px; */
+}
+@keyframes textclip
+100% {
+    background-position: 200% center;
+}
+
+
+
+
 
 @keyframes growing
 0%, 100% {
